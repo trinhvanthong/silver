@@ -1,0 +1,40 @@
+////overload 
+
+// Option A: include all of Bootstrap
+
+@import "./bootstrap/scss/bootstrap";
+
+// Add custom code after this
+
+
+// header-css
+.header-wrapper{
+    background-color: aliceblue;
+    height: 57px;
+}
+.site-header__icons{
+   display: flex;
+    
+}
+
+.site-header__icons img{
+    max-height: 26px;
+    margin-left:  20px;
+}
+.cart-customlocation1{
+    position: relative;
+}
+.cart-customlocation1 span{
+    position: absolute;
+    top: -2px;
+    right: -3px;
+    font-size: 10px;
+    text-align: center;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    background: #C54934;
+    color: #fff;
+    border-radius: 50%;
+}
+//
